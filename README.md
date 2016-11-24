@@ -15,4 +15,18 @@ This directive depends on angular ang Glyphicon Halflings(You can use your own i
 Please submit all pull requests the against master branch. If your unit test contains JavaScript patches or features, you should include relevant unit tests. Thanks!
 
 # Examples
-Live <a href =''>Demo</a>
+
+Add angular.min.js & bootstrap.css to your HTML.Also add panel.js & panel.css.
+<div class='highlight highlight-text-html-basic'>
+<pre>
+"
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="directive/panel.css"/>
+    <script type="text/javascript" src="libs/angular.min.js"></script>
+    <script type="text/javascript" src="directive/panel.js"></script>
+"
+</pre>
+</div>
+
+
+

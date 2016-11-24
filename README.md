@@ -5,10 +5,16 @@ angular-panel is a plugin on the base of AngularJS 4.0+ framework,which acts as 
 i.  support multi-case<br/>
 ii. act as container<br/>
 iii. support simple animation<br/>
+iv. support resizeable<br/>
+v.support dragging<br/>
 
 # Dependencies
 This directive depends on angular only. No jQuery or Bootstrap required! It has been tested on angular 4.0+
 
+# Contributing
+Please submit all pull requests the against master branch. If your unit test contains JavaScript patches or features, you should include relevant unit tests. Thanks!
+
 # Usage Examples
 See the live demo with usage examples <a href = ''>here.</a>
 
+# Examples

@@ -88,4 +88,4 @@ demo.controller('contentCtrl',["$scope",'panelService',function($scope,panelServ
 }
 
 # Communication
-if you have some advice or question,you can add my Wechat('Elektrotechnik') or give me email(liufeng_2015@163.com)
+if you have some advice or questions,you can add my Wechat('Elektrotechnik') or give me email(liufeng_2015@163.com)

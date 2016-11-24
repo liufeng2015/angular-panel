@@ -2,9 +2,9 @@
 angular-panel is a plugin on the base of AngularJS 1.2+ framework,which acts as a container that supports multi-case and simple animation,Also hope your advice
 
 # Features
-i.  support multi-case
-ii. act as container
-iii. support simple animation
+i.  support multi-case<br/>
+ii. act as container<br/>
+iii. support simple animation<br/>
 
 # Dependencies
 This directive depends on angular only. No jQuery or Bootstrap required! It has been tested on angular 1.2+

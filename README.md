@@ -14,8 +14,5 @@ This directive depends on angular ang Glyphicon Halflings(You can use your own i
 # Contributing
 Please submit all pull requests the against master branch. If your unit test contains JavaScript patches or features, you should include relevant unit tests. Thanks!
 
-# Usage Examples
-See the live demo with usage examples <a href = ''>here.</a>
-
 # Examples
 Live <a href =''>Demo</a>

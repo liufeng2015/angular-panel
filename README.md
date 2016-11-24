@@ -81,8 +81,8 @@ demo.controller('contentCtrl',["$scope",'panelService',function($scope,panelServ
 </div>
 
 # Options
-{
-  defaultWidth:  // Defines the default width of container
-  defaultHeight:  // Defines the default Height of container
-  defaultName:// Defines the name of container
+{<br/>
+  defaultWidth:  // Defines the default width of container <br/>
+  defaultHeight:  // Defines the default Height of container<br/>
+  defaultName:// Defines the name of container<br/>
 }

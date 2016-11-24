@@ -19,11 +19,10 @@ Please submit all pull requests the against master branch. If your unit test con
 Add angular.min.js & bootstrap.css to your HTML.Also add panel.js & panel.css.
 <div class='highlight highlight-text-html-basic'>
 <pre>
-"&lt link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/\&gt"
-    <link rel="stylesheet" href="directive/panel.css"/>
-    <script type="text/javascript" src="libs/angular.min.js"></script>
-    <script type="text/javascript" src="directive/panel.js"></script>
-
+&lt link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/&gt
+&lt link rel="stylesheet" href="directive/panel.css"/&gt
+&lt script type="text/javascript" src="libs/angular.min.js"/&gt
+&lt script type="text/javascript" src="directive/panel.js"/&gt
 </pre>
 </div>
 

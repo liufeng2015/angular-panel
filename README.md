@@ -57,6 +57,7 @@ Add panel directive to that block which you want to add.
 &lt/div&gt
 </pre>
 </div>
+Attention:you must add 'panelService' to your controller,the function of the service is to mananger the life cycle of the multi-case
 <div class='highlight highlight-text-html-basic'>
 <pre>
 var demo = angular.module("demo",['panel']);
@@ -75,7 +76,6 @@ demo.controller('contentCtrl',["$scope",'panelService',function($scope,panelServ
     $scope.$on("deletePanel",function(){
         panelService.deletePanel($scope.panelList,$scope);
     });
-
 }]);
 </pre>
 </div>

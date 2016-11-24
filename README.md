@@ -9,7 +9,7 @@ iv. support resizeable<br/>
 v.support dragging<br/>
 
 # Dependencies
-This directive depends on angular only. No jQuery or Bootstrap required! It has been tested on angular 4.0+
+This directive depends on angular and Bootstrap. No jQuery required! It has been tested on angular 4.0+
 
 # Contributing
 Please submit all pull requests the against master branch. If your unit test contains JavaScript patches or features, you should include relevant unit tests. Thanks!

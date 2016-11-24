@@ -86,3 +86,6 @@ demo.controller('contentCtrl',["$scope",'panelService',function($scope,panelServ
      defaultHeight:  // Defines the default Height of container<br/>
      defaultName:// Defines the name of container<br/>
 }
+
+# Communication
+if you have some advice or question,you can add my Wechat('Elektrotechnik') or give me email(liufeng_2015@163.com)

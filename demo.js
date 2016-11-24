@@ -1,7 +1,7 @@
 /**
  * Created by liufeng on 2016/11/24.
  */
-var demo = angular.module("demo",['panel']);
+var demo = angular.module("demo",['angular-panel']);
 demo.controller('contentCtrl',["$scope",'panelService',function($scope,panelService){
     /*panel*/
     $scope.panelList = [];

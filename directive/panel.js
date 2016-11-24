@@ -1,5 +1,5 @@
 /**
- * Created by zzjz-pc15 on 2016/5/14.
+ * Created by liufeng on 2016/5/14.
  */
 (function(){
     'use strict';

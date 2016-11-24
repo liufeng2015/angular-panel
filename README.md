@@ -26,5 +26,21 @@ Add angular.min.js & bootstrap.css to your HTML.Also add panel.js & panel.css.
 </pre>
 </div>
 
+Add panel as a module dependency for your app.
+<div class='highlight highlight-text-html-basic'>
+<pre>
+var demo = angular.module("demo",['panel']);
+</pre>
+</div>
 
-
+Add panel directive to that block which you want to add.
+<div class='highlight highlight-text-html-basic'>
+<pre>
+&lt div panel ng-repeat ='data in panelList' style-config = 'data'&gt
+       // add you want to add html
+      &lt div &gt
+       add dom
+       &lt div /&gt
+&lt/div&gt
+</pre>
+</div>

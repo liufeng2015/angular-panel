@@ -6,7 +6,7 @@
     var lf_panel_z_index = 0;
     var lf_panel_id = 0;
     var lf_animate_bool = true;
-    angular.module("panel",[]).factory('panelService',['$rootScope',function($rootScope){
+    angular.module("angular-panel",[]).factory('panelService',['$rootScope',function($rootScope){
         var _group = [];
         var _bottomGroup = [];
         var _deleteScope = null;

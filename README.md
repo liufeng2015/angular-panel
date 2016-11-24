@@ -44,3 +44,39 @@ Add panel directive to that block which you want to add.
 &lt/div&gt
 </pre>
 </div>
+
+# Detail
+<div class='highlight highlight-text-html-basic'>
+<pre>
+&lt button style="margin-top: 50px" ng-click="addPanel()"&gt panelAdd &lt/button&gt
+&lt div panel ng-repeat ='data in panelList' style-config = 'data'&gt
+       // add you want to add html
+      &lt div&gt
+       add dom
+      &lt div/&gt
+&lt/div&gt
+</pre>
+</div>
+<div class='highlight highlight-text-html-basic'>
+<pre>
+var demo = angular.module("demo",['panel']);
+demo.controller('contentCtrl',["$scope",'panelService',function($scope,panelService){
+    /*panel*/
+    $scope.panelList = [];
+    var n = 0;
+    $scope.addPanel = function(){
+        n++;
+        $scope.panelList.push({
+            defaultWidth:"50%",
+            defaultHeight:"60%",
+            defaultName:"视图"+n
+        })
+    };
+    $scope.$on("deletePanel",function(){
+        panelService.deletePanel($scope.panelList,$scope);
+    });
+
+}]);
+</pre>
+</div>
+

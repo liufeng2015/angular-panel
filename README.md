@@ -18,3 +18,4 @@ Please submit all pull requests the against master branch. If your unit test con
 See the live demo with usage examples <a href = ''>here.</a>
 
 # Examples
+Live  <a href =''>Demo</a>

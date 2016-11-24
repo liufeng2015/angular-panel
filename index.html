@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="demo">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="directive/panel.css"/>
+    <script type="text/javascript" src="libs/angular.min.js"></script>
+    <script type="text/javascript" src="directive/panel.js"></script>
+    <script type="text/javascript" src="demo.js"></script>
+</head>
+<body ng-controller="contentCtrl">
+    <button style="margin-top: 50px" ng-click="addPanel()">panelAdd</button>
+    <panel ng-repeat ='data in panelList' style-config = 'data'>
+        <div><h5>nothing!</h5></div>
+    </panel>
+</body>
+</html>

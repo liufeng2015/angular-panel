@@ -1,0 +1,72 @@
+.lf_panel_container{
+    position: absolute;
+    width: 75%;
+    height: 60%;
+    border: 1px solid gray;
+    font-family: '微软雅黑';
+    font-size: 14px;
+    border-radius: 3px;
+    overflow: hidden;
+    z-index: 1;
+}
+.lf_panel_navigation{
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid gray;
+    line-height: 35px;
+    cursor: move;
+    background: -webkit-linear-gradient(#e5c594, #f5f5f5);
+    background: -o-linear-gradient(#e5c594, #f5f5f5);
+    background: -moz-linear-gradient(#e5c594, #f5f5f5);
+    background: linear-gradient(#e5c594, #f5f5f5);
+}
+.lf_panel_navigation span{
+    margin-left: 6px;
+    color: blueviolet;
+}
+.lf_panel_function{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 90px;
+    height: 100%;
+    float: right;
+    cursor: pointer;
+}
+.lf_panel_function li{
+    width: 30px;
+    height: 29px;
+    text-align: center;
+}
+.lf_panel_transclude{
+    position: absolute;
+    top: 35px;
+    bottom: 0;
+    width: 100%;
+    background: peachpuff;
+}
+.lf_panel_corner{
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    background:grey;
+    transform: rotate(45deg);
+    cursor: nwse-resize;
+    display: block;
+    z-index: 1;
+}
+.lf_panel_bottom{
+    font-family: "微软雅黑";
+    font-size: 12px;
+    color: #f4f4f4;
+    width: 100%;
+    height: 35px;
+    clear: both;
+    text-align: center;
+    line-height: 35px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}

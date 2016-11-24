@@ -38,9 +38,9 @@ Add panel directive to that block which you want to add.
 <pre>
 &lt div panel ng-repeat ='data in panelList' style-config = 'data'&gt
        // add you want to add html
-      &lt div &gt
+      &lt div&gt
        add dom
-       &lt div /&gt
+      &lt div/&gt
 &lt/div&gt
 </pre>
 </div>

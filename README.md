@@ -26,10 +26,10 @@ Add angular.min.js & bootstrap.css to your HTML.Also add panel.js & panel.css.
 </pre>
 </div>
 
-Add panel as a module dependency for your app.
+Add angular-panel as a module dependency for your app.
 <div class='highlight highlight-text-html-basic'>
 <pre>
-var demo = angular.module("demo",['panel']);
+var demo = angular.module("demo",['angular-panel']);
 </pre>
 </div>
 
@@ -60,7 +60,7 @@ Add panel directive to that block which you want to add.
 Attention:you must add 'panelService' to your controller,the function of the service is to mananger the life cycle of the multi-case
 <div class='highlight highlight-text-html-basic'>
 <pre>
-var demo = angular.module("demo",['panel']);
+var demo = angular.module("demo",['angular-panel']);
 demo.controller('contentCtrl',["$scope",'panelService',function($scope,panelService){
     /*panel*/
     $scope.panelList = [];

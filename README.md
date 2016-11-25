@@ -9,7 +9,7 @@ iv. support resizeable<br/>
 v.support dragging<br/>
 
 # Dependencies
-This directive depends on angular ang Glyphicon Halflings(You can use your own icon to replace). No jQuery and Bootstrap required! It has been tested on angular 4.0+
+This directive depends on angular ang Glyphicon Halflings(You can use your own icon to replace). No jQuery and Bootstrap required! It has been tested on angular 1.2+
 
 # Contributing
 Please submit all pull requests the against master branch. If your unit test contains JavaScript patches or features, you should include relevant unit tests. Thanks!
